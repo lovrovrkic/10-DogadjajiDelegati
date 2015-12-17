@@ -26,12 +26,12 @@ namespace Vsite.CSharp
 
         static void Main(string[] args)
         {
-            // TODO: Pozvati metodu IspišiFunkciju tako da ispiše vrijednosti funkcije Math.Sin za 10 točaka u intervalu od 0 do Math.PI
+            // Pozvati metodu IspišiFunkciju tako da ispiše vrijednosti funkcije Math.Sin za 10 točaka u intervalu od 0 do Math.PI
+            IspišiFunkciju(Math.Sin, 0, Math.PI, 10);
 
 
-
-            // TODO: Pozvati metodu IspišiFunkciju tako da ispiše vrijednosti funkcije Math.Exp za 5 točaka u intervalu od 0 do 10
-
+            // Pozvati metodu IspišiFunkciju tako da ispiše vrijednosti funkcije Math.Exp za 5 točaka u intervalu od 0 do 10
+            IspišiFunkciju(Math.Exp, 0, 10, 5);
 
 
             Console.WriteLine("GOTOVO!!!");
